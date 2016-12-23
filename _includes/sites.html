@@ -1,0 +1,6 @@
+<h2>Clubs using Routegadget</h2>
+<div>
+{% for link in site.data.navigation.sites %}
+  <p class="sitelist__item"><img src="/images/bulletflag.jpg"></img>{% include formatlink url=link.url title=link.title %}</p>
+{% endfor %}
+</div>

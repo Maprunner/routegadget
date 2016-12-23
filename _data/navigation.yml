@@ -1,0 +1,182 @@
+# main menu
+main:
+- title: "RG2 stats"
+  url: "http://www.maprunner.co.uk/rg2-stats/"
+- title: "Useful links"
+  url: "#"
+  newtab: false
+  children:
+  - title: "RG2 Github"
+    url: "https://github.com/Maprunner/rg2"
+  - title: "RG2 Wiki"
+    url: "https://github.com/Maprunner/rg2/wiki"
+- title: Contact us
+  url: "contact/"
+  newtab: false
+- title: About
+  url: "about/"
+sites:
+  - title: Airienteers
+    url: http://www.aire.routegadget.co.uk/rg2
+  - title: Ayrshire OC
+    url: http://www.ayroc.routegadget.co.uk/rg2
+  - title: Badenoch & Strathspey OC
+    url: http://www.basoc.routegadget.co.uk/rg2
+  - title: Basingstoke Andover District
+    url: http://www.bado.routegadget.co.uk/rg2
+  - title: Berkshire Orienteers
+    url: http://www.bko.routegadget.co.uk/rg2
+  - title: Border Liners
+    url: http://www.bl.routegadget.co.uk/rg2
+  - title: Bristol OK
+    url: http://www.bok.routegadget.co.uk/rg2
+  - title: British Army OC
+    url: http://www.baoc.routegadget.co.uk/rg2
+  - title: British Champs
+    url: http://www.boc.routegadget.co.uk/rg2
+  - title: Cambridge University OC
+    url: http://www.cuoc.routegadget.co.uk/rg2
+  - title: Chigwell & Epping Forest OC
+    url: http://www.chig.routegadget.co.uk/rg2
+  - title: City of Birmingham
+    url: http://www.coboc.routegadget.co.uk/rg2
+  - title: Claro
+    url: http://www.claro.routegadget.co.uk/rg2
+  - title: Cleveland Orienteering Klub
+    url: http://www.clok.routegadget.co.uk/gadget/rg2
+  - title: Clydeside OC
+    url: http://www.clyde.routegadget.co.uk/rg2
+  - title: Cornwall OC
+    url: http://www.kerno.routegadget.co.uk/rg2
+  - title: Deeside OC
+    url: http://www.dee.routegadget.co.uk/rg2
+  - title: Devon OC
+    url: http://www.devonoc.routegadget.co.uk/rg2
+  - title: East Lothian Orienteers
+    url: http://www.elo.routegadget.co.uk/rg2
+  - title: East Pennine OC
+    url: http://www.epoc.routegadget.co.uk/rg2
+  - title: EBOR
+    url: http://www.ebor.routegadget.co.uk/rg2
+  - title: Edinburgh Southern OC
+    url: http://www.esoc.routegadget.co.uk/rg2
+  - title: Edinburgh University OC
+    url: http://www.euoc.routegadget.co.uk/rg2
+  - title: Grampian Orienteers
+    url: http://www.gramp.routegadget.co.uk/rg2
+  - title: Guildford Orienteers
+    url: http://www.go.routegadget.co.uk/rg2
+  - title: Harlequins OC
+    url: http://www.hoc.routegadget.co.uk/rg2
+  - title: Havering & South Essex OC
+    url: http://www.havoc.routegadget.co.uk/rg2
+  - title: Hertfordshire Orienteering Club
+    url: http://www.happyherts.routegadget.co.uk/rg2
+  - title: Interlopers
+    url: http://www.interlopers.routegadget.co.uk/rg2
+  - title: Invoc
+    url: http://www.invoc.routegadget.co.uk/rg2
+  - title: JK
+    url: http://www.jk.routegadget.co.uk/rg2
+  - title: Kingdom of Fife
+    url: http://www.kfo.routegadget.co.uk/rg2
+  - title: Lagan Valley
+    url: http://www.lvo.routegadget.co.uk/rg2
+  - title: Lakeland OC
+    url: http://www.loc.routegadget.co.uk/rg2
+  - title: LAMM - Mountain Marathon
+    url: http://www.lamm.routegadget.co.uk/rg2
+  - title: Leicester OC
+    url: http://www.leioc.routegadget.co.uk/rg2
+  - title: Lincoln OG
+    url: http://www.log.routegadget.co.uk/rg2
+  - title: Loch Eck Orienteers
+    url: http://www.ecko.routegadget.co.uk/rg2
+  - title: London O Klub
+    url: http://www.lok.routegadget.co.uk/rg2
+  - title: Manchester & District OC
+    url: http://www.mdoc.routegadget.co.uk/rg2
+  - title: Maroc
+    url: http://www.maroc.routegadget.co.uk/rg2
+  - title: Mid Wales Orienteers
+    url: http://www.pow.routegadget.co.uk/rg2
+  - title: Mole Valley OC
+    url: http://www.mvoc.routegadget.co.uk/rg2
+  - title: Newcastle & Tyneside OC
+    url: http://www.nato.routegadget.co.uk/rg2
+  - title: Norfolk OC
+    url: http://www.noroc.routegadget.co.uk/rg2
+  - title: North Gloucestershire OC
+    url: http://www.ngoc.routegadget.co.uk/rg2
+  - title: North Wilts O
+    url: http://www.nwo.routegadget.co.uk/rg2
+  - title: Octavian Droobers
+    url: http://www.od.routegadget.co.uk/rg2
+  - title: OMM - Mountain Marathon
+    url: http://www.omm.routegadget.co.uk/rg2
+  - title: Oxford University OC
+    url: http://www.ouoc.routegadget.co.uk/rg2
+  - title: Pendle Forest Orienteers
+    url: http://www.pfo.routegadget.co.uk/rg2
+  - title: Potteries OC
+    url: http://www.potoc.routegadget.co.uk/rg2
+  - title: Purple Thistle
+    url: http://www.purple-thistle.routegadget.co.uk/rg2
+  - title: Quantock Orienteers
+    url: http://www.quantock.routegadget.co.uk/rg2
+  - title: Roxburgh Reivers
+    url: http://www.roxburghreivers.routegadget.co.uk/rg2
+  - title: Royal Air Force
+    url: http://www.rafo.routegadget.co.uk/rg2
+  - title: Sarum OC
+    url: http://www.sarum.routegadget.co.uk/rg2
+  - title: SAXONS
+    url: http://www.saxons.routegadget.co.uk/rg2
+  - title: Scottish 6 Days
+    url: http://www.scottish6days.routegadget.co.uk/rg2
+  - title: Scottish MBO
+    url: http://www.smbo.routegadget.co.uk/rg2
+  - title: Scottish OA
+    url: http://www.soa.routegadget.co.uk/rg2
+  - title: SE Lancs OC
+    url: http://www.seloc.routegadget.co.uk/rg2
+  - title: Solway OC
+    url: http://www.solway.routegadget.co.uk/rg2
+  - title: South London Orienteers
+    url: http://www.slow.routegadget.co.uk/rg2
+  - title: South Midlands OC
+    url: http://www.smoc.routegadget.co.uk/rg2
+  - title: South Ribble OC
+    url: http://www.sroc.routegadget.co.uk/rg2
+  - title: South Wales OC
+    url: http://www.swoc.routegadget.co.uk/rg2
+  - title: South Yorkshire Orienteers
+    url: http://www.syo.routegadget.co.uk/rg2
+  - title: Southampton OC
+    url: http://www.soc.routegadget.co.uk/rg2
+  - title: Southdowns OC
+    url: http://www.so.routegadget.co.uk/rg2
+  - title: Southern Navigators
+    url: http://www.sn.routegadget.co.uk/rg2
+  - title: Stag
+    url: http://www.stag.routegadget.co.uk/rg2
+  - title: Suffolk OC
+    url: http://www.suffoc.routegadget.co.uk/rg2
+  - title: Tayside Orienteers
+    url: http://www.tay.routegadget.co.uk/rg2
+  - title: Thames Valley OC
+    url: http://www.tvoc.routegadget.co.uk/rg2
+  - title: Tinto
+    url: http://www.tinto.routegadget.co.uk/rg2
+  - title: Walton Chasers
+    url: http://www.walton.routegadget.co.uk/rg2
+  - title: Wessex OC
+    url: http://www.wsx.routegadget.co.uk/rg2
+  - title: West Anglia OC
+    url: http://www.waoc.routegadget.co.uk/rg2
+  - title: West Cumbria OC
+    url: http://www.wcoc.routegadget.co.uk/rg2
+  - title: Wimborne Orienteers
+    url: http://www.wim.routegadget.co.uk/rg2
+  - title: Wrekin
+    url: http://www.wrekin.routegadget.co.uk/rg2
