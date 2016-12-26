@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+DirectoryIndex index.php index.html
+
+RewriteEngine On
+RewriteBase /
+
+# force use of www
+RewriteCond %{HTTP_HOST} ^([a-z0-9.-]+)?routegadget\.co\.uk$ [NC]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule .? http://www.%1routegadget.co.uk%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{REQUEST_URI} reitti\.cgi$
+RewriteRule ^(.*)$ /rg2 [R=301,L]
+
+ErrorDocument 404 /404.html

@@ -10,9 +10,9 @@ locale                   : "en-GB"
 title                    : "Routegadget UK"
 title_separator          : "-"
 name                     : "Routegadget UK"
-description              : "ETCS"
+description              : "Helping to widen the use of Routegadget. Draw your route after an orienteering event and compare it with others."
 # url                      : "http://localhost:4000"
-url                      : "http://www.routegadget.co.uk"
+url                      : "https://www.routegadget.co.uk"
 baseurl                  : ""
 repository               : "Maprunner/routegadget"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -91,7 +91,7 @@ analytics:
 author:
   name             : "Simon Errington"
   avatar           : "simon.png"
-  bio              : "Surebridge"
+  bio              : "Orienteering since 1977"
   location         : "St Albans"
   email            : 
   uri              :
