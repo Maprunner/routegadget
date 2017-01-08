@@ -10,6 +10,8 @@ main:
     url: "https://github.com/Maprunner/rg2"
   - title: "RG2 Wiki"
     url: "https://github.com/Maprunner/rg2/wiki"
+  - title: "User videos"
+    url: "http://screencast-o-matic.com/channels/c2e22vhJZ"
 - title: Contact us
   url: "contact/"
   newtab: false
