@@ -1,0 +1,14 @@
+.tips {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  background-color: var(--rg2-light-background);
+}
+
+html[data-theme='dark'] .tips {
+  background-color: var(--ifm-color-gray-800);
+ }
+
+
+
