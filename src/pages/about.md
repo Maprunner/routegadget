@@ -10,7 +10,7 @@ Routegadget 2 (RG2) was developed by Simon Errington in 2013 to use newly availa
 Routegadget.co.uk was originally set up by Paul Frost to provide an easy way for clubs to use Routegadget. It is now run by Simon Errington. Each club gets a full installation of Routegadget which is kept up to date with the latest release. They just need to set up events using the provide manager interface.
 
 ## How do I get my club on Routegadget.co.uk?
-Contact [Simon](#contact-details) if you would like your club to be included on Routegagdet.co.uk. This service is free for clubs registered with the British Orienteering Federation. Clubs could make a donation to the [Orienteering Foundation](https://www.orienteeringfoundation.org.uk/).
+Contact [Simon](#contact-details) if you would like your club to be included on Routegadget.co.uk. This service is free for clubs registered with the [British Orienteering Federation](http://www.britishorienteering.org.uk/). Clubs could make a donation to the [Orienteering Foundation](https://www.orienteeringfoundation.org.uk/).
 
 ## Contact details
 

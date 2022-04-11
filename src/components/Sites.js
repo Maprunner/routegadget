@@ -1,7 +1,6 @@
 import React from 'react';
-import clsx from 'clsx';
 import styles from './Sites.module.css';
-import sites from '../data/sites.js';
+import sites from '../data/sitedata.js';
 
 function Site({ club1, club2, link }) {
   return (
@@ -46,15 +45,26 @@ export default function Sites() {
     site.club1 = club1;
     site.club2 = club2;
   })
-  const uk = sites.sort(nameSort).filter(site => site.link.indexOf("routegadget.co.uk") > -1);
-  const other = sites.sort(nameSort).filter(site => site.link.indexOf("routegadget.co.uk") === -1);
+  const uk = sites.sort(nameSort).filter(site => site.bof === "true");
+  const major = sites.sort(nameSort).filter(site => site.bof === "major");
+  const other = sites.sort(nameSort).filter(site => site.bof === "false");
   return (
     <>
       <section className={[styles.sites, styles.uk].join(" ")}>
       <div className='container'>
-        <h3>Routegadget.co.uk sites ({uk.length})</h3>
+        <h3>British Orienteering Federation club sites ({uk.length})</h3>
         <div className={styles.sitesContainer}>
           {uk.map((props, idx) => (
+            <Site key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+      </section>
+      <section className={[styles.sites, styles.major].join(" ")}>
+      <div className='container'>
+        <h3>Major events ({major.length})</h3>
+        <div className={styles.majorSitesContainer}>
+          {major.map((props, idx) => (
             <Site key={idx} {...props} />
           ))}
         </div>
