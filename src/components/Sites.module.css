@@ -9,16 +9,24 @@
   background-color: var(--ifm-color-gray-100);
 }
 
-.other {
+.major {
   background-color: var(--rg2-light-background);
+}
+
+.other {
+  background-color: var(--ifm-color-gray-100);
 }
 
 html[data-theme='dark'] .uk {
   background-color: var(--ifm-color-gray-900);
  }
 
- html[data-theme='dark'] .other {
+html[data-theme='dark'] .major {
   background-color: var(--ifm-color-gray-800);
+}
+
+html[data-theme='dark'] .other {
+  background-color: var(--ifm-color-gray-900);
  }
 
 .sitesContainer {
@@ -26,7 +34,13 @@ html[data-theme='dark'] .uk {
   flex-flow: row wrap;
   justify-content: space-around;
   margin-bottom: 20px;
-  padding: 2rem 0;
+}
+
+.majorSitesContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-bottom: 20px;
 }
 
 .siteName {
@@ -34,6 +48,7 @@ html[data-theme='dark'] .uk {
   padding: 0 10px;
   font-weight: bold;
   text-align: center;
+  min-width: 100px;
   background: -webkit-linear-gradient(135deg, #ffffff 10%, #e8e8e8 50%, #d8d8d8 50%, #d0d0d0 100%);
   background: linear-gradient(135deg, #ffffff 10%, #e8e8e8 50%, #d8d8d8 50%, #d0d0d0 100%);
   border: 2px solid var(--ifm-color-primary);
