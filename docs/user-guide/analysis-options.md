@@ -14,7 +14,7 @@ This function is only active for normal events, not score courses or relays.
 
 ### Summary
 
-The Summary tab lists key aspects of the runner's performance.
+The Summary tab displays key aspects of the runner's performance.
 
 ![Performance information](/img/performance.png)
 
@@ -22,7 +22,18 @@ The Performance figure provides an indication of how the runner compares to othe
 
 The Consistency figure provides an indication of how the runner's performance varied across each leg. The lower the figure the more consistent the run.
 
-Performance and Consistency are based on a similar calculation used in Winsplits.
+Performance and Consistency are based on a similar calculation used in [Winsplits](http://obasen.orientering.se/winsplits/default.aspx?lang=en).
+
+### Performance chart
+
+![Performance chart](/img/perf-chart.png)
+
+The Performance chart on the Summary tab shows how the runner performed throughout the race. The solid red line shows position on each leg and the red dotted line shows average leg position across the whole race. The green bars show estimated time loss at each control.
+
+:::tip
+If your mouse is over the chart and you use the scroll wheel you can move through all the runners on that course.
+:::
+
 
 ### Leg times
 
@@ -43,7 +54,15 @@ First, second and third split and cumulative times for each control are shown in
 
 Splits with an estimated time loss of 20 seconds or over are highlighted with a pale red background.
 
+### Time loss
 
+![Time loss chart](/img/time-loss-chart.png)
+
+The time loss chart shows how all runners on the course performed for a given control. The dark bar is the currently active runner. Estimated time loss is highlighted in red.
+
+:::tip
+You can change the displayed control by using the slider above the chart or by using the scroll wheel when your mouse is over the chart.
+:::
 
 ## Route choice measurement
 
