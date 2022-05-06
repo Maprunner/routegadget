@@ -179,7 +179,14 @@ const sites = [
       "bof": "true",
       "country": "GBR",
       "link": "https://www.euoc.routegadget.co.uk/rg2",
-    },
+  },
+    {
+        "abbr": "Explorer",
+        "club": "Explorer Events",
+        "bof": "false",
+        "country": "GBR",
+        "link": "https://www.explorerevents.routegadget.co.uk/rg2",
+      },
     {
       "abbr": "GO",
       "club": "Guildford Orienteers",
@@ -774,7 +781,14 @@ const sites = [
       "bof": "false",
       "country": "FRA",
       "link": "http://routegadget.co-paca.info/rg2",
-    }
+  },
+    {
+        "abbr": "Slovakia",
+        "club": "Slovak Orienteering Association ",
+        "bof": "false",
+        "country": "SVK",
+        "link": "http://rg.orienteering.sk/",
+      }
 ];
   
 module.exports = sites;
