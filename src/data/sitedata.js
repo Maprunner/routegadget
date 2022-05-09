@@ -577,7 +577,7 @@ const sites = [
       "club": "Rocky Mountain Orienteering Club",
       "bof": "false",
       "country": "USA",
-      "link": "https://www.rmoc.org/gadget/rg2",
+      "link": "http://www.rmoc.org/gadget/rg2",
     },
     {
       "abbr": "NOC",
@@ -742,7 +742,7 @@ const sites = [
     },
     {
       "abbr": "MTFSZ",
-      "club": "MTFSZ",
+      "club": "MTFSZ Hungary",
       "bof": "false",
       "country": "HUN",
       "link": "http://rg.mtfsz.hu/rg2",

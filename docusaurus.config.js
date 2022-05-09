@@ -123,8 +123,12 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['php'],
       },
-      hideableSidebar: true,
-      autoCollapseSidebarCategories: true,
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      }
     }),
 };
 
