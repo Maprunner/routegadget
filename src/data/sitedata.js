@@ -129,7 +129,7 @@ const sites = [
       "club": "Derwent Valley Orienteers",
       "bof": "true",
       "country": "GBR",
-      "link": "http://www.derwentvalleyorienteers.org.uk/results/rg2",
+      "link": "https://www.dvo.routegadget.co.uk/rg2",
     },
     {
       "abbr": "DEVON",
