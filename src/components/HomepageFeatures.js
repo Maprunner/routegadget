@@ -6,7 +6,7 @@ const FeatureList = [
   {
     title: 'User Guide',
     Svg: require('../../static/img/user-guide.svg').default,
-    link: "http://localhost:3000/docs/intro",
+    link: "/docs/intro",
     description: (
       <>
         All you need to know to add your own route and see where other people went.

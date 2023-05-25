@@ -13,10 +13,9 @@
   --ifm-color-primary-lighter: #0061bb;
   --ifm-color-primary-lightest: #006dd4;
   --rg2-light-background: #eaf5ff;
-
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #89d1f1;
   --ifm-color-primary-dark: #67c4ed;
   --ifm-color-primary-darker: #56bdeb;
@@ -34,12 +33,12 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 .footer__link-item {
- line-height: 3;
+  line-height: 2;
 }
 
 .footer__copyright a {
