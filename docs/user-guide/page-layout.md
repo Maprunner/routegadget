@@ -1,17 +1,20 @@
 ---
 title: "Page layout"
 ---
+
 The overall page layout is the same whatever you are doing in Routegadget.
 
-![Page layout](/img/front-page.png)
+![Page layout](../img/front-page.png)
 
 ## Title bar
-The title bar is across the top of the screen. If an event is loaded then details are shown here. 
+
+The title bar is across the top of the screen. If an event is loaded then details are shown here.
 
 ## Icon bar
+
 The right hand side of the title bar shows an icon bar that is used to to set display options.
 
-![Icon bar](/img/icon-bar.png)
+![Icon bar](../img/icon-bar.png)
 
 Icons from left to right:
 
@@ -27,6 +30,7 @@ Icons from left to right:
 - Information: Opens a window showing information about Routegadget and the loaded event (if any).
 
 ## Information panel
+
 The information panel is on the left hand side of screen. It includes four tabs, each showing different information. Switch between the tabs by clicking on the tab name. The Events tab is always enabled. The other three tabs are only enabled if an event has been loaded.
 
 :::tip
@@ -36,6 +40,7 @@ You can hide the information panel by clicking on the small arrow at the top rig
 :::
 
 ## Map display
+
 This is on the right of the screen. It is blank if no event has been loaded.
 
 :::tip

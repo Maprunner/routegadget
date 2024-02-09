@@ -5,7 +5,7 @@ title: "Events"
 
 The Events Tab lists all events, with the most recent event at the top.
 
-![Events tab](/img/events.png)
+![Events tab](../img/events.png)
 
 :::tip
 
@@ -19,6 +19,6 @@ You can return to the Events tab at any time to load a new event. This will over
 
 # Search
 
-![Filtered events](/img/events-filtered.png)
+![Filtered events](../img/events-filtered.png)
 
 The search bar allows you to filter events by name.
