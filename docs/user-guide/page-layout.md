@@ -18,13 +18,14 @@ The right hand side of the title bar shows an icon bar that is used to to set di
 
 Icons from left to right:
 
-- Splitsbrowser: This opens a new tab to display Splitsbrowser information. This icon is only active if an event is loaded and Splitsbrowser is enabled for this installation of Routegadget.
-- Control display: Toggles the display of all controls for an event.
-- Rotate left: Rotates the map display clockwise.
-- Rotate right: Rotates the map display anti-clockwise.
-- Zoom in: Zooms in the map display.
-- Zoom out : Zooms out the map display.
 - Reset: Resets the map zoom and rotation.
+- Zoom out : Zooms out the map display.
+- Zoom in: Zooms in the map display.
+- Rotate right: Rotates the map display clockwise.
+- Rotate left: Rotates the map display anti-clockwise.
+- Control display: Toggles the display of all controls for an event.
+- Splitsbrowser: This opens a new tab to display Splitsbrowser information. This icon is only active if an event is loaded and Splitsbrowser is enabled for this installation of Routegadget.
+- Runners: Toggles the display of a window showing runner names for selected routes and replays.
 - Measure: Opens a window to allow route measurement.
 - Settings: Opens a window to allow changes to display settings.
 - Information: Opens a window showing information about Routegadget and the loaded event (if any).
@@ -35,7 +36,7 @@ The information panel is on the left hand side of screen. It includes four tabs,
 
 :::tip
 
-You can hide the information panel by clicking on the small arrow at the top right of it, or by clicking on the RG2 icon in the Title bar. This is useful if you are using a small screen or mobile phone.
+You can hide the information panel by clicking on the X at the top right, or by clicking on the RG2 icon in the Title bar. This is useful if you are using a small screen or mobile phone.
 
 :::
 

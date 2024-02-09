@@ -60,11 +60,11 @@ The map will normally be aligned to north when drawing. If you check the `Align 
 
 3. Add any comments in the comment box.
 
-4. Select `Choose file` and select the [GPS file](#gps-file-formats) to be uploaded.
+4. Select `Browse` and select the [GPS file](#gps-file-formats) to be uploaded.
 
 5. [Adjust the GPS route](#gps-route-adjustment) as necessary.
 
-6. Once you have completed the adjustment click the `Save` button and then confirm that you want to save the route.
+6. Once you have completed the adjustment click the `Save GPS route` button and then confirm that you want to save the route.
 
 7. Your route can now be viewed from the Results tab.
 

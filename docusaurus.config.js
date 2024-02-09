@@ -25,6 +25,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          lastVersion: "current",
+          versions: {
+            current: {
+              label: "2.x",
+              path: "2.x",
+            },
+          },
         },
         blog: {
           showReadingTime: true,
@@ -49,6 +56,11 @@ const config = {
           src: "img/rg2-180-180.png",
         },
         items: [
+          {
+            type: "docsVersionDropdown",
+            position: "right",
+            dropdownActiveClassDisabled: true,
+          },
           {
             type: "doc",
             docId: "intro",

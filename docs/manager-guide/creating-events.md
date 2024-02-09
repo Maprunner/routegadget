@@ -2,7 +2,11 @@
 title: "Creating events"
 ---
 
+:::tip
+
 There is an [introductory video](http://screencast-o-matic.com/u/VJsd/RG2-Cassiobury-Manager-Demo) that shows an event being set up.
+
+:::
 
 ## Stages in adding an event
 
@@ -46,9 +50,7 @@ This checkbox applies to all courses for a Routegadget event. If you put on an e
 
 #### Adding class information
 
-![Adding classes](../img/add-classes.png)
-
-If your course file is set up with courses names and a mapping to classes then the `Add classes to course names` checkbox will be displayed. This will update the saved course name to include classes. You can see how this will appear in the [result to course mappings](#map-results-to-courses).
+If your course file is set up with course names and a mapping to classes then the `Add classes to course names` checkbox will be enabled. This will update the saved course name to include classes. You can see how this will appear in the [result to course mappings](#map-results-to-courses).
 
 #### Aligning controls to the map
 

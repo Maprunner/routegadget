@@ -21,8 +21,6 @@ If the map is georeferenced then it is possible to read in the associated world 
 
 Select the required co-ordinate system from the dropdown. Nearly all routegadget.co.uk installations will use GB National Grid (EPSG:27700).
 
-The world file parameters are displayed for information. Parameters C and F at the bottom are the latitude and longitude of the top left corner of the map.
-
 The small map that opens when you add georeferencing shows you the orienteering map area overlaid on Open Street Map. This allows you to check you have the correct files.
 
 :::info

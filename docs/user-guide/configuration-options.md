@@ -11,6 +11,17 @@ The Configuration options dialog is opened by the cog icon in the Icon bar.
 
 A dropdown selection showing available translations.
 
+## Show GPS speed colours
+
+If unchecked then GPS routes are shown in a solid colour as for drawn routes.
+If checked then GPS routes are colour coded to show running speed. Colours range from green to red as defined by the speed settings configured using the slider. Anything slower than the red speed setting is shown as blue.
+
+:::tip
+
+Adjusting the speed settings can be very informative. It becomes easy to see the impact of hills, thick vegetation and rough terrain.
+
+:::
+
 ## Map intensity
 
 This allows the map to be dimmed so that it is easier to see courses and routes.
@@ -36,14 +47,3 @@ This checkbox controls how close you need to be to a control when drawing a rout
 ## Show +3 time loss of GPS routes
 
 If checked then a GPS route display will show "+3" (or some higher multiple of 3) at locations where the GPS track shows a runner is stationary.
-
-## Show GPS speed colours
-
-If unchecked then GPS routes are shown in a solid colour as for drawn routes.
-If checked then GPS routes are colour coded to show running speed. Colours range from green to red as defined by the speed settings. Anything slower than the red speed setting is shown as blue.
-
-:::tip
-
-Adjusting the speed settings can be very informative. It becomes easy to see the impact of hills, thick vegetation and rough terrain.
-
-:::

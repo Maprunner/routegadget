@@ -10,10 +10,6 @@ Routegadget provides several functions to allow you to analyse your run in detai
 
 Double clicking on any runner in the Results table will bring up a detailed performance analysis for that runner.
 
-:::tip
-This function is only active for normal events, not score courses or relays.
-:::
-
 ### Summary
 
 The Summary tab displays key aspects of the runner's performance.
@@ -61,12 +57,12 @@ Splits with an estimated time loss of 20 seconds or over are highlighted with a 
 The time loss chart shows how all runners on the course performed for a given control. The dark bar is the currently active runner. Estimated time loss is highlighted in red.
 
 :::tip
-You can change the displayed control by using the slider above the chart or by using the scroll wheel when your mouse is over the chart.
+You can change the displayed control by using the scroll wheel when your mouse is over the chart.
 :::
 
 ## Route choice measurement
 
-Clicking on the Ruler icon in the icon bar brings up a measurement window.
+Clicking on the `Ruler` icon in the icon bar brings up a measurement window.
 
 ![Measuring](../img/measuring.png)
 
@@ -78,7 +74,7 @@ Drawn routes can be adjusted by dragging the filled circles.
 Lengths are shown in metres for georeferenced maps or in pixels otherwise.
 :::
 
-Drawn routes can be deleted individually or all together by clicking the appropriate Dustbin icon.
+Drawn routes can be deleted individually or all together by clicking the appropriate `Dustbin` icon.
 
 ## Splitsbrowser
 
