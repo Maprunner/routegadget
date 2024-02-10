@@ -85,15 +85,15 @@ const config = {
             items: [
               {
                 label: "Docs",
-                to: "/docs/intro",
+                to: "/docs/2.x/intro",
               },
               {
                 label: "User Guide",
-                to: "/docs/category/user-guide",
+                to: "/docs/2.x/category/user-guide",
               },
               {
                 label: "Manager Guide",
-                to: "/docs/category/manager-guide",
+                to: "/docs/2.x/category/manager-guide",
               },
             ],
           },

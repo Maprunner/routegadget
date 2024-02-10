@@ -15,7 +15,7 @@ There is an [introductory video](http://screencast-o-matic.com/u/VJsd/RG2-Cassio
 ### Event details
 
 - Name: Enter the event name. It is helpful to include the map name since this makes finding past events on the same area much easier. So prefer `Ace of Herts: Ashridge` over `Ace of Herts`. The date of the event will be included automatically on the Event tab.
-- Map: Select a map from the dropdown menu. Maps must be added through the [Map tab](/docs/manager-guide/maps) before an event can be set up. It is possible to reuse previously uploaded maps by selecting from the dropdown menu.
+- Map: Select a map from the dropdown menu. Maps must be added through the [Map tab](./maps) before an event can be set up. It is possible to reuse previously uploaded maps by selecting from the dropdown menu.
 - Club: Enter the organising club.
 - Date: Select the event date.
 - Level: Select the event level from the dropdown menu.
@@ -85,7 +85,7 @@ It is possible to select `Do not save` in the dropdown. This allows you to inclu
 
 ![Create event](../img/create-event.png)
 
-Select the `Read-only` checkbox if required. People will be able to see the map, courses and results but they will not be able to draw routes. This will allow you to check that everything has been set up correctly. The event can also be locked and unlocked on the [Edit event tab](/docs/manager-guide/editing-events#edit-event-details).
+Select the `Read-only` checkbox if required. People will be able to see the map, courses and results but they will not be able to draw routes. This will allow you to check that everything has been set up correctly. The event can also be locked and unlocked on the [Edit event tab](./editing-events#edit-event-details).
 
 Then click `Create event`. The event will be created and will open in a new tab (if allowed by your browser settings).
 

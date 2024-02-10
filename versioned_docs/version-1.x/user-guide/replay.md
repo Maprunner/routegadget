@@ -36,7 +36,7 @@ This toggles through three options for the labels used on the display:
 ![Replay splits](../img/replay-splits.png)
 This brings up a splits display for all selected runners.
 :::tip
-This function has largely been superseded by the splits display in the [performance information](/docs/user-guide/analysis-options#performance-analysis).
+This function has largely been superseded by the splits display in the [performance information](./analysis-options#performance-analysis).
 :::
 
 ## Replay type
