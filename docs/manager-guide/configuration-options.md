@@ -18,39 +18,41 @@ The configurable options are described below. For routegadget.co.uk installation
   // allow relocating kartat directory: only really relevant for development environment
   // path is relative to RG_BASE_DIRECTORY
   define('OVERRIDE_KARTAT_DIRECTORY', '../rg2-test-data/hh/kartat/');
-  ```
-
-## User interface
-```php
-  // User interface colour theme: see gallery at http://jqueryui.com/themeroller/
-  define('UI_THEME', 'start');
-  // set these to an RGB colour definition to override default configuration of white text on blue
-  // background for the header. If you change them make sure the text shows up on the background
-  define('HEADER_COLOUR', '#002bd9');
-  define('HEADER_TEXT_COLOUR', '#ffffff');
 ```
 
 ## Splitsbrowser integration
+
 ```php
   // location of Splitsbrowser files if required: see Wiki for details of how to install Splitsbrowser
   define('SPLITSBROWSER_DIRECTORY', 'https://www.routegadget.co.uk/splitsbrowser');
 ```
 
+## JPG map files
+
+```php
+  // Whether or not to create JPG files as well as GIFs.
+  // Only set to true if you are running both versions of Routegadget using the same kartat directory
+  // Defaults to true for backward compatibility
+  define('CREATE_JPG_MAP_FILES', false);
+```
+
 ## Start-up language
+
 ```php
   // default language if not English: this is overridden if the query includes a language (e.g. ?lang=fi)
-  // requires a dictionary file xx.js in the lang directory
+  // requires a dictionary file xx.txt in the lang directory
   define('START_LANGUAGE', 'de');
 ```
 
 ## Character encoding
 
-```php  
+```php
   // Set encoding for input data default UTF-8. Only needed for compatibility with earlier versions of Routegadget
   define('RG_INPUT_ENCODING', 'UTF-8');
 ```
 
 ## Additional text
+
 ```php
   // text displayed at bottom of info dialog. Use '' to leave blank.
   // OS licence text below is needed for installations on routegadget.co.uk site.
@@ -58,6 +60,7 @@ The configurable options are described below. For routegadget.co.uk installation
 ```
 
 ## Georeferencing
+
 ```php
   // proj4 co-ordinate reference system for new maps
   // see http://spatialreference.org/ref/epsg/ for master list
@@ -71,4 +74,4 @@ The configurable options are described below. For routegadget.co.uk installation
   define('EPSG_PARAMS', "+proj=utm +zone=22 +south +ellps=WGS84 +datum=WGS84 +units=m +no_defs ");
   define('EPSG_CODE', "EPSG:32722|EPSG:12345");
   define('EPSG_PARAMS', "+proj=utm +zone=22 +south +ellps=WGS84 +datum=WGS84 +units=m +no_defs|+proj=utm +zone=22 +south +ellps=WGS84 +datum=WGS84 +units=m +no_defs");
-  ```
+```

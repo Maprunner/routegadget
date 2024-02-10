@@ -16,7 +16,7 @@
 }
 
 [data-theme="dark"] {
-  --ifm-color-primary: #89d1f1;
+  --ifm-color-primary: #24a9e5;
   --ifm-color-primary-dark: #67c4ed;
   --ifm-color-primary-darker: #56bdeb;
   --ifm-color-primary-darkest: #24a9e5;
@@ -44,4 +44,8 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 .footer__copyright a {
   color: white;
   font-weight: bold;
+}
+
+img {
+  box-shadow: 5px 5px 10px 1px #c0c0c0;
 }

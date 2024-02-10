@@ -1,55 +1,56 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './TopTips.module.css';
+import React from "react"
+import clsx from "clsx"
+import styles from "./TopTips.module.css"
 
 const TipsList = [
   {
-    title: 'GPS speed colours',
-    img: require('../../static/img/gps-colours.png').default,
+    title: "GPS speed colours",
+    img: require("../../docs/img/gps-colours.png").default,
     link: "/docs/user-guide/configuration-options#show-gps-speed-colours",
     description: (
       <>
-        Colour-code your GPS track to see the impact of hills, thick vegetation and rough terrain.
+        Colour-code your GPS track to see the impact of hills, thick vegetation
+        and rough terrain.
       </>
     ),
   },
   {
-    title: 'Performance analysis',
-    img: require('../../static/img/performance.png').default,
+    title: "Performance analysis",
+    img: require("../../docs/img/performance.png").default,
     link: "/docs/user-guide/analysis-options#performance-analysis",
     description: (
       <>
-        See how you did on each leg and get estimates of who lost what time where.
+        See how you did on each leg and get estimates of who lost what time
+        where.
       </>
     ),
   },
   {
-      title: 'Replay',
-      img: require('../../static/img/replay.png').default,
-      link: "/docs/user-guide/replay",
-      description: (
-        <>
-          Replay selected runners to see how different routes compare.
-        </>
-      ),
+    title: "Replay",
+    img: require("../../docs/img/replay.png").default,
+    link: "/docs/user-guide/replay",
+    description: (
+      <>Replay selected runners to see how different routes compare.</>
+    ),
   },
+]
 
-];
-
-function Tip({img, title, description, link}) {
+function Tip({ img, title, description, link }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <a href={link}>
           <img src={img} alt={title} />
         </a>
       </div>
       <div className="text--center padding-horiz--md">
-        <h3><a href={link}>{title}</a></h3>
+        <h3>
+          <a href={link}>{title}</a>
+        </h3>
         <p>{description}</p>
       </div>
     </div>
-  );
+  )
 }
 
 export default function TopTips() {
@@ -63,5 +64,5 @@ export default function TopTips() {
         </div>
       </div>
     </section>
-  );
+  )
 }
