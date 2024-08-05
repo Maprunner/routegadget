@@ -8,6 +8,8 @@ Routegadget provides several functions to allow you to analyse your run in detai
 
 ### Displaying performance information
 
+The analysis window can be displayed by clicking the Stats icon in the icon bar at the top of the screen. 
+
 Double clicking on any runner in the Results table will bring up a detailed performance analysis for that runner.
 
 ### Summary
