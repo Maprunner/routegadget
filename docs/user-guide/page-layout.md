@@ -24,8 +24,9 @@ Icons from left to right:
 - Rotate right: Rotates the map display clockwise.
 - Rotate left: Rotates the map display anti-clockwise.
 - Control display: Toggles the display of all controls for an event.
-- Splitsbrowser: This opens a new tab to display Splitsbrowser information. This icon is only active if an event is loaded and Splitsbrowser is enabled for this installation of Routegadget.
-- Runners: Toggles the display of a window showing runner names for selected routes and replays.
+- Stats display: Brings up the Statistics and Analysis window. Only active if an event is loaded.
+- Splitsbrowser: This opens a new tab to display Splitsbrowser information. Only active if an event is loaded and Splitsbrowser is enabled for this installation of Routegadget.
+- Runners: Toggles the display of a window showing runner names for selected routes and replays. Only active if one or more runners are selected for replay
 - Measure: Opens a window to allow route measurement.
 - Settings: Opens a window to allow changes to display settings.
 - Information: Opens a window showing information about Routegadget and the loaded event (if any).
