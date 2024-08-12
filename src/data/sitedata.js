@@ -801,7 +801,7 @@ const sites = [
     club: "British Mountain Bike Orienteering",
     bof: "false",
     country: "GBR",
-    link: "https://www.slmm.bmbo.co.uk/rg2",
+    link: "https://www.bmbo.routegadget.co.uk/rg2",
   },
 ]
 
