@@ -405,6 +405,13 @@ const sites = [
     link: "https://www.scottish6days.routegadget.co.uk/rg2",
   },
   {
+    abbr: "CROESO",
+    club: "Croeso",
+    bof: "major",
+    country: "GBR",
+    link: "https://www.croeso.routegadget.co.uk/rg2",
+  },
+  {
     abbr: "SMBO",
     club: "Scottish MBO",
     bof: "false",
