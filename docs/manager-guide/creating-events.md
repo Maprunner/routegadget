@@ -44,8 +44,25 @@ Select the course file to be used.
 #### Relays, score events and butterfly loops
 
 The default event set-up assumes that courses are line courses where every runner visits the same controls in the same order. For other types of event select the `Individual courses` checkbox.
+
 :::info
 This checkbox applies to all courses for a Routegadget event. If you put on an event which has line courses and score courses then it it is best to set it up as two separate events in Routegadget.
+:::
+
+:::tip
+
+If you are setting up a score course you must have a course defined within the XML file. You cannot just have the list of controls, start and finish, even though this is potentially enough to print the map. Check that you have the following section in the XML:
+
+```
+<Course>
+  <CourseName>1hr Score</CourseName>
+  <CourseId>0</CourseId>
+  <CourseVariation>
+     ... course details
+  </CourseVariation>
+</Course>
+```
+
 :::
 
 #### Adding class information
