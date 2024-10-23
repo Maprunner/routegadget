@@ -626,7 +626,7 @@ const sites = [
     club: "Forth Valley Orienteers",
     bof: "true",
     country: "GBR",
-    link: "https://routegadget.fvo.org.uk/rg2",
+    link: "https://www.fvo.routegadget.co.uk/rg2",
   },
   {
     abbr: "HALO",
@@ -799,9 +799,16 @@ const sites = [
   {
     abbr: "BMBO",
     club: "British Mountain Bike Orienteering",
-    bof: "false",
+    bof: "major",
     country: "GBR",
     link: "https://www.bmbo.routegadget.co.uk/rg2",
+  },
+  {
+    abbr: "Croeso",
+    club: "Croeso",
+    bof: "major",
+    country: "GBR",
+    link: "https://www.croeso.routegadget.co.uk/rg2",
   },
 ]
 

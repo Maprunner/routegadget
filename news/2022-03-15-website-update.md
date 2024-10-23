@@ -9,3 +9,4 @@ After a few false starts I have finally managed to update the routegadget.co.uk 
 
 For the technically minded it is built using [Docusaurus](https://docusaurus.io/) which has turned out to be a very good choice so far.
 
+<!-- truncate -->
