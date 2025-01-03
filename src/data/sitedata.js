@@ -588,10 +588,10 @@ const sites = [
   },
   {
     abbr: "NOC",
-    club: "Nottingham OC",
+    club: "Nottinghamshire OC",
     bof: "true",
     country: "GBR",
-    link: "http://www.noc-uk.org/gadget/rg2",
+    link: "https://www.noc-uk.org/gadget/rg2/index.php",
   },
   {
     abbr: "WAOC",
