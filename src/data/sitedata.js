@@ -803,13 +803,6 @@ const sites = [
     country: "GBR",
     link: "https://www.bmbo.routegadget.co.uk/rg2",
   },
-  {
-    abbr: "Croeso",
-    club: "Croeso",
-    bof: "major",
-    country: "GBR",
-    link: "https://www.croeso.routegadget.co.uk/rg2",
-  },
 ]
 
 module.exports = sites
