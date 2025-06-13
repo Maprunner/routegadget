@@ -47,6 +47,6 @@ This is on the right of the screen. It is blank if no event has been loaded.
 
 :::tip
 
-Click and drag to move the map. Zoom in and out by using the mouse scroll wheel.
+Click and drag to move the map. Zoom in and out by using the mouse scroll wheel or the icon buttons in the icon bar.
 
 :::

@@ -11,7 +11,7 @@ The configurable options are described below. For routegadget.co.uk installation
 ```php
   // Location of directory where Routegadget is installed.
   // This should have /kartat and /rg2 sub-directories.
-  define('RG_BASE_DIRECTORY', 'https://www.routegadget.co.uk/rg2');
+  define('RG_BASE_DIRECTORY', 'https://www.test.routegadget.co.uk/rg2');
   // allow js and css to be loaded from a separate location if needed
   // probably only relevant for routegadget.co.uk to avoid 100 copies of source files
   define('OVERRIDE_SOURCE_DIRECTORY', 'http://www.routegadget.co.uk');

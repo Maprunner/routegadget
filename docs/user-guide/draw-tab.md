@@ -8,7 +8,7 @@ The Draw tab allows you to draw your route or to upload a GPS file.
 
 :::info
 
-If you have an event loaded but the Draw tab is not active then the event has been set up as read-only. There will also be a `Padlock` icon in the title bar.
+If you have an event loaded but the Draw tab is not active then the event has been set up as read-only. There will be a `Padlock` icon in the title bar.
 
 :::
 
