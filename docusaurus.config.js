@@ -104,14 +104,6 @@ const config = {
                 label: "GitHub",
                 href: "https://github.com/Maprunner/rg2",
               },
-              {
-                label: "Facebook",
-                href: "https://facebook.com/Maprunner.co.uk",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/MaprunnerGB",
-              },
             ],
           },
           {

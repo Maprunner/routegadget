@@ -49,7 +49,7 @@ This frees up storage space on the server. There is no problem in having unused 
 
 ### Map file formats
 
-RG2 supports JPG and GIF files. The original Routegadget converted all maps to JPG. RG2 now keeps a GIF file if that is what was initially uploaded, which allows smaller file sizes. It also creates a JPG file from the GIF file for compatibility with the original Routegadget.
+RG2 supports JPG and GIF files. The original Routegadget converted all maps to JPG. RG2 now keeps a GIF file if that is what was initially uploaded, which allows smaller file sizes. It can also be configured to create a JPG file from the GIF file for compatibility with the original Routegadget.
 
 ### Map file size
 

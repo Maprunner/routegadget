@@ -145,3 +145,37 @@ Routegadget supports results in IOF XML 2.0.3 and IOF XML 3.0 format.
 ## Course files
 
 Routegadget supports courses in IOF XML 2.0.3 and IOF XML 3.0 format. These can be generated from the standard course planning software packages such as OCAD, Condes and Purple Pen.
+
+## Events with more than one map scale
+
+At larger events it is common to use two or more map scales for the various age classes. Ideally this can still be set up as a single event in Routegadget, as long as there is a single course file that contains all of the courses. The map needs to cover all of the used area. It does not matter what scale this is: everything will be handled automatically.
+
+## Setting up relays
+
+Relays typically have a small number of classes but a large number of courses (gaffles). The simple way to set this up is by course, which works in the same way as a normal event. Just make sure you check the "Individual courses (butterfly/score/relay)" checkbox when creating the event. The problem is that you end up with a [large number of courses](http://www.boc.routegadget.co.uk/rg2/#14) with confusing names, and it is difficult to work out who ran what.
+
+It is much more user-friendly to set things up by class. This requires some manual editing of the results and course files, but ends up with [a much nicer result](http://www.boc.routegadget.co.uk/rg2/#19). The main requirement is to define the classes that will be used to group results. Once you have done this you edit the course and results file to use these classes rather than courses.
+
+1) Open the course xml file in a text editor and delete all of the `<Course>..</Course>` information.
+
+2) Add the following for each class. You need to replace "S" and "F" with whatever your start and finish control codes are. This assumes an IOF XML V3 format:
+
+```xml
+<Course>
+  <Name>A: Men's Premier</Name>
+  <CourseControl type="Start">
+    <Control>S</Control>
+  </CourseControl>
+  <CourseControl type="Finish">
+    <Control>F</Control>
+   </CourseControl>
+</Course> 
+```
+
+3) Edit the results file and change the "Course" information for each runner to use the relevant class name, change the position to be the team position and add the team number and lap number for the runner. Exactly how you do this depends on what your results format is. If possible the results file then needs to be sorted by class then position then team number then lap. SiTiming software from version 4980 onwards (23 April 2025) can produce the necessary results file format automatically
+
+4) You can now create the event using the two edited files. Make sure you check the "Individual courses (butterfly/score/relay)" checkbox when creating the event.
+
+[Full JK Relay XML definition](https://github.com/Maprunner/rg2/wiki/JK-Relay-Course-Definitions-IOF-XML-v3)
+
+[Full British Relays XML definition](https://github.com/Maprunner/rg2/wiki/British-Relays-Course-Definitions-IOF-XML-v3)
