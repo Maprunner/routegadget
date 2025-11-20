@@ -377,13 +377,6 @@ const sites = [
     link: "https://www.quantock.routegadget.co.uk/rg2",
   },
   {
-    abbr: "RAFO",
-    club: "Royal Air Force",
-    bof: "true",
-    country: "GBR",
-    link: "https://www.rafo.routegadget.co.uk/rg2",
-  },
-  {
     abbr: "RR",
     club: "Roxburgh Reivers",
     bof: "true",

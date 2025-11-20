@@ -13,7 +13,7 @@ const config = {
   url: "https://www.routegadget.co.uk",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  markdown: { hooks: { onBrokenMarkdownLinks: "warn" } },
   favicon: "img/favicon.ico",
   organizationName: "Maprunner",
   projectName: "rguk",
