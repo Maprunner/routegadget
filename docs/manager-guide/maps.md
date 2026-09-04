@@ -21,6 +21,8 @@ If the map is georeferenced then it is possible to read in the associated world 
 
 Select the required co-ordinate system from the dropdown. Nearly all routegadget.co.uk installations will use GB National Grid (EPSG:27700).
 
+You can add any necessary extra co-ordinate systems in the [georeferencing section of the configuration file](../manager-guide/configuration-options#georeferencing).
+
 The small map that opens when you add georeferencing shows you the orienteering map area overlaid on Open Street Map. This allows you to check you have the correct files.
 
 :::info
