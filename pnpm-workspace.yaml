@@ -1,0 +1,4 @@
+allowBuilds:
+  core-js: true
+minimumReleaseAgeExclude:
+  - baseline-browser-mapping@2.11.21

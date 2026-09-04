@@ -391,6 +391,13 @@ const sites = [
     link: "https://www.sarum.routegadget.co.uk/rg2",
   },
   {
+    abbr: "SHUOC",
+    club: "Sheffield University Orienteering Club",
+    bof: "true",
+    country: "GBR",
+    link: "https://www.shuoc.routegadget.co.uk/rg2",
+  },
+  {
     abbr: "S6D",
     club: "Scottish 6 Days",
     bof: "major",
@@ -795,6 +802,13 @@ const sites = [
     bof: "major",
     country: "GBR",
     link: "https://www.bmbo.routegadget.co.uk/rg2",
+  },
+  {
+    abbr: "WMMTBO 2026",
+    club: "World Masters MTBO 2026",
+    bof: "false",
+    country: "GBR",
+    link: "https://www.wmmtbo2026.routegadget.co.uk/rg2",
   },
 ]
 
